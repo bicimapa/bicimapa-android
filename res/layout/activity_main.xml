@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="showBiciMapa"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+	<ScrollView
+	    android:id="@+id/scrollView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/lbl_greetings"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/greetings" />
+
+	        <IconButton
+	            android:id="@+id/btn_bicirevision"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:onClick="launchBiciRevision"
+	            android:text="@string/btn_bicirevision" />
+
+	        <IconButton
+	            android:id="@+id/btn_bicisegura"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:onClick="launchBiciSegura"
+	            android:text="@string/BiciSegura" />
+
+	        <IconButton
+	            android:id="@+id/btn_bicimapa"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:onClick="showBiciMapa"
+	            android:text="@string/btn_bicimapa" />
+
+	        <IconButton
+	            android:id="@+id/button_yes"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:onClick="showBiciEventos"
+	            android:text="@string/btn_bicieventos" />
+
+	        <IconButton
+	            android:id="@+id/btn_emergency_call"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:onClick="callEmergencyContact"
+	            android:text="@string/btn_emergency_call" />
+
+	        <IconButton
+	            android:id="@+id/btn_show_lockscreen"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:onClick="showLockscreen"
+	            android:text="@string/btn_show_lockscreen" />
+	    </LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>

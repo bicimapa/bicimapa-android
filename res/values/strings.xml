@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">bicimapa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="greetings">Bienvenido usuario del bicimapa!</string>
+    <string name="btn_bicirevision">{fa-wrench} BiciRevisión</string>
+    <string name="title_activity_bici_revision">BiciRevisión</string>
+    <string name="greetings_bicirevision">Bienvenido a la herramienta BiciRevisión!</string>
+    <string name="btn_addbicycle">Agregar bicicleta</string>
+    <string name="title_activity_add_bycicle">Agregar una Bicicleta</string>
+    <string name="label_add_bycicle">Entrar los datos de la bicicleta</string>
+    <string name="lbl_description_bicycle">Descripción:</string>
+    <string name="input_placeholder_description_bicycle">Descripción de la bicicleta</string>
+    <string name="btn_add">Agregar</string>
+    <string name="add_bicycle_successful">Se agregó exitosamente la bicicleta</string>
+    <string name="description_bicycle_empty">La descripción de la bicicleta no puede ser vacia</string>
+    <string name="description_bicycle_already_exists">Una bicicleta con esta descripción ya existe</string>
+    <string name="add_bicycle_error">Un error sucedío y no se pudo guardar la bicicleta</string>
+    <string name="BiciSegura">{fa-heart} BiciSegura</string>
+    <string name="title_activity_bici_segura">BiciSegura</string>
+    <string name="greetings_bicisegura">Bienvenido a la herramienta BiciSegura!</string>
+    <string name="lbl_nombres">Nombres:</string>
+    <string name="edit_nombres">Sus nombres</string>
+    <string name="lbl_apellidos">Apellidos:</string>
+    <string name="edit_apellidos">Sus apellidos</string>
+    <string name="lbl_cedula">Cédula:</string>
+    <string name="edit_cedula">Su numéro de cédula</string>
+    <string name="lbl_RH">RH:</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="lbl_emergency_contact">Contacto de emegencia:</string>
+    <string name="undefined">Undefinido</string>
+    <string name="select">Seleccionar</string>
+    <string name="personal_data_save_successful">Se guardó los datos personal exitosamente</string>
+    <string name="bicisegura_to_setup_personal_data">Use BiciSegura para inicializar sus datos personales</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="btn_emergency_call">{fa-phone} LLamada de emergencia</string>
+    <string name="txt_define_emergency_contact">Usa BiciSegura para definir un contacto de emergencia</string>
+    <string name="btn_show_lockscreen">{fa-mobile} Mostrar Lockscreen</string>
+    <string name="title_activity_lock_screen">LockScreen</string>
+    <string name="txt_nombres">Nombres undefinidos</string>
+    <string name="txt_cedula">Cédula undefinida</string>
+    <string name="txt_apellidos">Apellidos undefinidos</string>
+    <string name="txt_RH">RH undefinido</string>
+    <string name="title_activity_view_bicycle">Detalles de la bicicleta</string>
+    <string name="lbl_description">Descripción:</string>
+    <string name="lbl_bicycle_description">Descripción de la bicicleta</string>
+    <string name="btn_add_part">Agregar una parte</string>
+    <string name="title_activity_add_bicycle_part">Agregar una parte a la bicicleta</string>
+    <string name="lbl_name">Nombre:</string>
+    <string name="lbl_name_place">Nombre del sitio:</string>
+    <string name="edit_name_hint">Nombre de la parte</string>
+    <string name="part_added_successfully">La parte se agregó exitosamente</string>
+    <string name="part_name_cant_be_empty">El nombre de la parte no puede ser vacio</string>
+    <string name="part_name_already_in_use_for_this_bicycle">Esta bicicleta ya tiene una parte con este nombre</string>
+    <string name="title_activity_add_part_log">Agregar un log</string>
+    <string name="title_activity_view_part">Detalles de la parte</string>
+    <string name="txt_part_name">Nombre de la parte</string>
+    <string name="btn_agregar_log">Agregar un log</string>
+    <string name="hint_description">Descripción</string>
+    <string name="lbl_date">Fecha:</string>
+    <string name="lbl_reason">Razón:</string>
+    <string name="hint_reason">Razón</string>
+    <string name="hint_cost">Costo</string>
+    <string name="lbl_cost">Costo:</string>
+    <string name="btn_get_history">Historía</string>
+    <string name="title_activity_view_history">Historía de la bicicleta</string>
+    <string name="txt_delete">Borrar</string>
+    <string name="description_cant_be_empty">Usted debe entrar una descripción</string>
+    <string name="reason_cant_be_empty">Usted debe entrar una razón</string>
+    <string name="cost_cant_be_empty">Usted debe entrar un costo</string>
+    <string name="btn_select_photo">Escoger foto</string>
+    <string name="title_select_photo">Escoger una foto de la bicicleta</string>
+    <string name="lbl_photo">Foto:</string>
+    <string name="lbl_total">"Total: "</string>
+    <string name="title_activity_edit_log">Editar log</string>
+    <string name="txt_edit">Editar</string>
+    <string name="title_activity_edit_part">Editar parte</string>
+    <string name="title_activity_edit_bicycle">Editar bicicleta</string>
+    <string name="action_about">Acerca de</string>
+    <string name="title_activity_about">Acerca de</string>
+    <string name="lbl_about_colazo">Acerca del bicimapa:</string>
+    <string name="lbl_explication_colazo">El bicimapa: www.bicimapa.com</string>
+    <string name="follow_us_on_twitter">{fa-twitter} Síguenos en Twitter</string>
+    <string name="follow_us_on_facebook">{fa-facebook} Dale me gusta en Facebook</string>
+    <string name="share">{fa-share} Compatir</string>
+    <string name="el_bicimapa">El bicimapa</string>
+    <string name="share_msg">La herramienta indispensable para cualquier ciclista urbano: el bicimapa (http://goo.gl/4ZycZt) y su aplicación (http://goo.gl/KX01G0).</string>
+    <string name="share_via">Compartir con</string>
+    <string name="btn_bicimapa">{fa-map-marker} BiciMapa</string>
+    <string name="title_activity_bici_mapa">bicimapa</string>
+    <string name="loading">Cargando…</string>
+    <string name="no_connection">Se necesita una conneción a internet</string>
+    <string name="help">Ayuda</string>
+    <string name="bicycle_shop">Tiendas de bicicleta</string>
+    <string name="bicycle_parking">Parqueaderos</string>
+    <string name="bicycle_repair">Talleres</string>
+    <string name="atention_point">Puntos de atención</string>
+    <string name="ok">OK</string>
+    <string name="short_press_help">Haz un <b>clic corto</b> para tener una <b>descripción del lugar</b></string>
+    <string name="long_press_help">Haz un <b>clic largo</b> sobre el mapa para <b>marcar un nuevo punto</b></string>
+    <string name="new_version">Existe una nueva versión del BiciMapa</string>
+    <string name="update_question">¿Desea actualizarla?</string>
+    <string name="rate">{fa-star} Quiero calificar</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="btn_bicieventos">{fa-calendar} BiciEventos</string>
+    <string name="title_activity_bici_eventos">BiciEventos</string>
+    <string name="new_version_bicieventos">Existe una nueva versión de los BiciEventos</string>
+    <string name="add_place_title">Añadir un punto</string>
+    <string name="hint_name">Nombre</string>
+    <string name="lbl_latitude">Latitud:</string>
+    <string name="txt_latitude">Latitud</string>
+    <string name="lbl_longitud">Longitud:</string>
+    <string name="hint_longitud">Longitud</string>
+    <string name="add">Agregar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="lbl_type">Tipo:</string>
+    <string name="min_zoom_requirement">Debe agrandar más el mapa para definir un lugar</string>
+    <string name="whats_new">¿Qué hay de nuevo?</string>
+    <string name="version_2_0_alpha">Version 2.0 alpha:\n* BiciMapa:\n  - Ver los lugares de interés de la ciudad\n  - Hacer un clic largo para añadir lugares\n\n* BiciEventos:\n  - Ver los eventos bicicleteros de Bogotá\n  - Si quiere mostrar un evento contactar a y.lecuyer10@uniandes.edu.co para mayores informaciones</string>
+    <string name="version_2_0_beta">Version 2.0 beta:\n* BiciMapa:\n  - Integración con el bicimapa\n\n* BiciEventos:\n  - Ver los eventos bicicleteros de Bogotá (gracías a la gran rodada)</string>
+    <string name="version_2_0">Version 2.0:\n\nCon esta versión empeza la fusión de Colazo con el bicimapa.\n\n* BiciMapa:\n  - Integración con el bicimapa\n\n* BiciEventos:\n  - Ver los eventos bicicleteros de Bogotá (gracías a la gran rodada)</string>
+    <string name="version_2_1_0">Version 2.1.0:\n\n * Filtros en el bicimapa\n * Posición GPS visible desde el bicimapa</string>
+    <string name="version_2_2_0">Version 2.2.0:\n\n * Nueva presentación de BiciRevisión\n * Filtros en el bicimapa\n * Posición GPS visible desde el bicimapa\n * Varias correcciones de errores</string>
+    <string name="version_2_3_0">Version 2.3.0:\n\n * Nueva presentación de BiciRevisión\n * Filtros en el bicimapa\n * Posición GPS visible desde el bicimapa\n * Varias correcciones de errores</string>
+    <string name="version_2_3_1">Version 2.3.1:\n\n * Nueva presentación de BiciRevisión\n * Filtros en el bicimapa\n * Posición GPS visible desde el bicimapa (mejorado)\n * Puntos de expedición de la revista el bicitante\n * Varias correcciones de errores</string>
+    <string name="version_3_0_0">Version 3.0.0:\n\n * Alertas: robo/acidente\n * Nueva presentación de BiciRevisión\n * Filtros en el bicimapa\n * Posición GPS visible desde el bicimapa (mejorado)\n * Puntos de expedición de la revista el bicitante\n * Varias correcciones de errores</string>
+    <string name="version_3_1_0">Version 3.1.0:\n\n * Nueva presentación del bicimapa\n * Nueva presentación de BiciRevisión\n * Agregar puntos al bicimapa\n * Filtros en el bicimapa\n * Posición GPS visible desde el bicimapa (mejorado)\n * Puntos de expedición de la revista el bicitante\n * Red de cliclorutas\n * Tráfico en directo\n * Varias correcciones de errores</string>
+    <string name="version_3_2_0">Version 3.2.0:\n\n * Sistema de alertas: Acidente/Falla mécanica\n * Nueva presentación del bicimapa\n * Nueva presentación de BiciRevisión\n * Agregar puntos al bicimapa\n * Filtros en el bicimapa\n * Posición GPS visible desde el bicimapa (mejorado)\n * Puntos de expedición de la revista el bicitante\n * Red de cliclorutas\n * Tráfico en directo\n * Varias correcciones de errores</string>
+    <string name="version_3_2_1">Version 3.2.1:\n\n * Correcciones de errores</string>
+    <string name="version_3_3_0">Version 3.3.0:\n\n * Sitios Biciamigos \n * Correcciones de errores</string>
+    <string name="version_3_4_0">Version 3.4.0:\n\n * Ciclovias \n * Ver calificación de los sitios \n * Guardar los filtros \n * Correcciones de errores</string>
+    <string name="version_3_4_1">Version 3.4.1:\n\n * Traducción al francés</string>
+    <string name="bicievento">BiciEventos</string>
+    <string name="update_events_question">¿Desea actualizar el listado de eventos?</string>
+    <string name="thanks_la_gran_rodada">Gracías a la gran rodada por su registro de eventos</string>
+    <string name="event_detail">Detalle del evento</string>
+    <string name="text_rating">Parece que te gusta la aplicación del bicimapa!\nQuieres dar tus impresiones al respecto?</string>
+    <string name="no_thanks">No, gracias</string>
+    <string name="remind_me_later">Recordar más tarde</string>
+    <string name="rate_title">Tus impresiones</string>
+    <string name="cannot_get_gps_service">No se puede usar el GPS</string>
+    <string name="btn_filter">{fa-filter}</string>
+    <string name="talleres">Talleres</string>
+    <string name="tiendas">Tiendas</string>
+    <string name="parqueaderos">Parqueaderos</string>
+    <string name="atencion">Atención</string>
+    <string name="trafico">Tráfico</string>
+    <string name="filter_against">Filtrar por</string>
+    <string name="action_add">Agregar</string>
+    <string name="action_history">Historia</string>
+    <string name="no_parts">No hay partes</string>
+    <string name="no_bicis">No hay bicis</string>
+    <string name="no_history">No hay historia</string>
+    <string name="no_logs">No hay registros</string>
+    <string name="action_filter">Filtrar</string>
+    <string name="action_center">Centrar</string>
+    <string name="action_update">Actualizar</string>
+    <string name="ciclorutas">Ciclorutas</string>
+    <string name="ciclovias">Ciclovias</string>
+    <string name="rutas">Rutas</string>
+    <string name="el_bicitante">El Bicitante</string>
+    <string name="biciamigos">Biciamigos</string>
+    <string name="drawer_open">Abierto</string>
+    <string name="drawer_close">Cerado</string>
+    <string name="alert">Alerta por un:</string>
+    <string name="alert_robo">Robo</string>
+    <string name="alert_falla_mecanica">Falla mécanica</string>
+    <string name="alert_acidente">Acidente</string>
+    <string name="alert_sent">Se mandó la alerta</string>
+    <string name="action_add_place">Añadir un lugar</string>
+    <string name="long_press_marker">Haz un clic largo sobre el marcador para cambiar su posición</string>
+    <string name="action_valid_place">Añadir punto</string>
+    <string name="action_cancel_place">Cancelar</string>
+    <string name="lbl_user_name">Tu nombre:</string>
+    <string name="lbl_user_email">Tu correo electrónico:</string>
+    <string name="hint_optional">Opcional</string>
+    <string name="please_wait">Espera un momento…</string>
+    <string name="extracting_data">Extraiendo los datos</string>
+    <string name="downloading">Descargando los datos</string>
+    <string name="saving_into_db">Guardando los datos</string>
+    <string name="no_item_selected">Ningún sitio selectionado</string>
+    <string name="logo">Logo</string>
+    <string name="ruta">Ruta</string>
+    <string name="elbicitante">El Bicitante</string>
+    <string name="quit_without_saving">¿Quitar sin guardar?</string>
+    <string name="last_changes_not_saved">Los últimos cambios no han sidos guardados. ¿Desea continuar sin guardar?</string>
+    <string name="notification_falla_mecanica">Alguien tuvo una falla mécanica y necesita ayuda</string>
+    <string name="notification_acidente">Alguien tuvo un acidente y necesita ayuda</string>
+    <string name="rate_and_comment">Comentar y calificar</string>
+    <string name="no_position">No se pudo encontrar la ubicación actual</string>
+    <string name="default_rating">(0)</string>
+    
+    <string-array name="drawer_layout_items">
+        <item>BiciRevisión</item>
+        <item>BiciSegura</item>
+        <item>BiciEventos</item>
+        <item>Llamada de Emergencia</item>
+        <item>Mostrar Lockscreen</item>
+        <item>Mandar alerta!</item>
+        <item>Acerca de</item>
+    </string-array>
+    <string-array name="types">
+        <item>Taller</item>
+        <item>Tienda</item>
+        <item>Parqueadero</item>
+        <item>Atención</item>
+        <item>El Bicitante</item>
+        <item>Biciamigo</item>
+    </string-array>
+
+</resources>

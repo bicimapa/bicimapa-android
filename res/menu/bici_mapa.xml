@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:colazo="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/action_update"
+        colazo:showAsAction="always"
+        android:title="@string/action_update"/>
+    
+     <item
+        android:id="@+id/add_place"
+        colazo:showAsAction="always"
+        android:title="@string/action_add_place"/>
+    
+    <item
+        android:id="@+id/action_filter"
+        colazo:showAsAction="always"
+        android:title="@string/action_filter"/>
+    
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/help"/>
+
+</menu>

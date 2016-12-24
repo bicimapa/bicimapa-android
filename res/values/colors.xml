@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="grey_light">#FFEFEFEF</color>
+        <color name="ciclorutas">#2DBB28</color>
+        <color name="ciclovias">#CC0066</color>
+</resources>
